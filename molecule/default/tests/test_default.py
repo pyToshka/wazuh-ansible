@@ -10,7 +10,6 @@ def get_wazuh_version():
     """This return the version of Wazuh."""
     return "4.4.0"
 
-
 def test_wazuh_packages_are_installed(host):
     """Test the main packages are installed."""
     manager = host.package("wazuh-manager")
